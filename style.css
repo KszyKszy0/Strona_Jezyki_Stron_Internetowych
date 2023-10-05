@@ -7,6 +7,9 @@ body {
     text-align: center;
     padding: 20px;
     color: #7e7498;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -39,7 +42,7 @@ li {
 #html {
     display: block;
     max-width: 800px;
-    margin-left: 20%;
+
     padding: 20px;
     background-color: #FAF0E6;
     border-radius: 40px;
@@ -47,30 +50,33 @@ li {
     animation-name: moveFromLeft;
     animation-duration: 1s;
     margin-top: 100px;
+    align-items: center;
 }
 
 #css {
     display: block;
     max-width: 800px;
-    margin-left: 20%;
+
     padding: 20px;
     background-color: #FAF0E6;
     border-radius: 40px;
     box-shadow: 1px 1px 1px 1px #f0decb;
     animation-name: moveFromRight;
     animation-duration: 1s;
+    align-items: center;
 }
 
 #js {
     display: block;
     max-width: 800px;
-    margin-left: 20%;
+
     padding: 20px;
     background-color: #FAF0E6;
     border-radius: 40px;
     box-shadow: 1px 1px 1px 1px #f0decb;
     animation-name: moveFromLeft;
     animation-duration: 1s;
+    align-items: center;
 }
 
 #footer {
