@@ -1,0 +1,135 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #352F44;
+    text-align: center;
+    padding: 20px;
+    color: #7e7498;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #5C5470;
+    border-radius: 20px;    
+    box-shadow: 5px 5px 1px 1px #271d3e;
+    animation-name: moveFromUp;
+    animation-duration: 0.5s;
+    color: #8c83a4;
+}
+
+#html {
+    display: block;
+    max-width: 800px;
+    margin-left: 20%;
+    padding: 20px;
+    background-color: #FAF0E6;
+    border-radius: 40px;
+    box-shadow: 1px 1px 1px 1px #f0decb;
+    animation-name: moveFromLeft;
+    animation-duration: 1s;
+    margin-top: 100px;
+}
+
+#css {
+    display: block;
+    max-width: 800px;
+    margin-left: 20%;
+    padding: 20px;
+    background-color: #FAF0E6;
+    border-radius: 40px;
+    box-shadow: 1px 1px 1px 1px #f0decb;
+    animation-name: moveFromRight;
+    animation-duration: 1s;
+}
+
+#js {
+    display: block;
+    max-width: 800px;
+    margin-left: 20%;
+    padding: 20px;
+    background-color: #FAF0E6;
+    border-radius: 40px;
+    box-shadow: 1px 1px 1px 1px #f0decb;
+    animation-name: moveFromLeft;
+    animation-duration: 1s;
+}
+
+#footer {
+    margin: 20px 0;
+    background-color: #8074a1;
+    color: #271e3e;
+}
+#nav
+{
+    background-color: #5C5470;
+    position: sticky;
+    top: 0;
+    display: block;
+    border-radius: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid;
+}
+a{
+    color: #271e3e;
+}
+a:hover{
+    color: #110d1b;
+    border: 1px dotted;
+}
+@keyframes moveFromLeft
+{
+    from{
+        transform: translateX(-500px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+@keyframes moveFromRight
+{
+    from{
+        transform: translateX(500px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+@keyframes moveFromDown
+{
+    from{
+        transform: translateY(200px)
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+@keyframes moveFromUp
+{
+    from{
+        transform: translateY(-200px)
+    }
+    to{
+        transform: translateY(0px);
+    }
+} 
